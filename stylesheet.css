@@ -1,9 +1,38 @@
 html {
     font-family: arial, sans-serif;
+    background-color: white;
+
 }
 
-.nav {
+nav {
     display: flex;
-    flex-direction: row-reverse;
-    
+    flex-direction: row;
+    justify-content: flex-end;
+    opacity: 0.75;
+    font-size: 13px;
+    padding: 10px 20px 0px 20px;
+    align-items: center;
     }
+
+ .about {
+     padding: 0px 0px 0px 15px;
+ }   
+
+ .store {
+    padding: 0px 0px 0px 15px;
+ }
+
+ .gmail {
+    padding: 0px 0px 0px 15px;
+ }
+
+ .images {
+    padding: 0px 15px 0px 15px;
+ }
+
+ .sign-in {
+    padding: 5px 12px;
+    background-color: #357ff7;
+    color: white;
+    font-weight: bold;
+ }
