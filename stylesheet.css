@@ -1,7 +1,11 @@
 html {
     font-family: arial, sans-serif;
     background-color: white;
+    min-height: 100%;
+}
 
+body {
+    position: relative;
 }
 
 nav {
@@ -67,13 +71,90 @@ nav {
  }
 
  .mic {
-     height: 24px;
+     height: 24 px;
      width: 24px;
      padding: 7px 0px 0px;
  }
 
  footer {
-     font: 14px
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
      display: flex;
+     align-items: center;
+     background-color: #f2f2f2;
+     line-height: 40px;
+     font-size: 14px;
+     color: #5F6368;
+     justify-content: space-between;
+ }
 
+ .advertising {
+     padding: 0px 0px 0px 27px;
+ }
+
+ .business {
+     padding: 0px 0px 0px 27px;
+ }
+
+ .buttons {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin-top: 30px;
+ }
+
+ .google-search {
+     align-content: center;
+     margin: 0px 15px 0px 0px;
+     display: flex;
+     justify-content: center;
+     padding: 11px 4px;
+     font-family: arial;
+     font-size: 14px;
+     text-align: center;
+     background-color: #f2f2f2;
+     border: none;
+ }
+
+ .im-feeling-lucky {
+    align-content: center;
+    margin: 0px 15px 0px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 11px 4px;
+    font-family: arial;
+    font-size: 14px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: none;
+ }
+
+ 
+ .how-search-works {
+     padding: 0px 0px 0px 27px;
+ }
+
+ .privacy {
+     padding: 0px 0px 0px 27px
+ }
+
+ .terms {
+    padding: 0px 0px 0px 27px
+ }
+
+ .settings {
+    padding: 0px 27px 0px 27px
+ }
+
+ .bottom-left{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+ }
+ .bottom-right {
+     display:flex;
+     flex-direction: row;
+     justify-content: flex-end;
  }
