@@ -45,6 +45,8 @@ nav {
      display: flex;
      justify-content: center;
      padding: 109px 0px 0px 0px;
+     max-width:100%;
+     height:auto;
  }
 
  .nav-left {
@@ -66,12 +68,14 @@ nav {
  }
 
  .typebox {
-     width: 400px;
+     width: 450px;
      line-height: 34px;
+     border-radius: 50px;
+     border:1px solid lightgray;
  }
 
  .mic {
-     height: 24 px;
+     height: 24px;
      width: 24px;
      padding: 7px 0px 0px;
  }
